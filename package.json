@@ -4,17 +4,18 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "vite",
-    "jsx": "babel input.jsx --presets @babel/preset-react --out-file output.js --watch"
+    "dev": "vite"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "@babel/cli": "^7.27.2",
-    "@babel/core": "^7.27.4",
-    "@babel/preset-react": "^7.27.1",
     "vite": "^6.3.5"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.5.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
   }
 }
